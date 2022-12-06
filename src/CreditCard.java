@@ -59,7 +59,7 @@ public class CreditCard
     }
 
     public String toString() {
-        String str = "CreditCard holder: " + accountHolder;
+        String str = "Creditcard Holder: " + accountHolder;
         str += "\nBalance Owed: " + balanceOwed;
         str += "\nPIN: " + personalPIN;
         return str;

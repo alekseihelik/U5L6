@@ -97,9 +97,9 @@ public class BagelShop
     public String toString()
     {
         String str = "Vendor: " + name;
-        str += "\nProfit: " + profit;
-        str += "\nInventory: " + inventory;
-        str += "\nItem price: " + bagelPrice;
+        str += "\nProfit: $" + profit;
+        str += "\nInventory: " + inventory + " bagels";
+        str += "\nItem price: $" + bagelPrice;
 
         // omitting the bank instance variable from the String
         return str;
